@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block titulo %}Inicio{% endblock %}
+
+{% block contenido %}
+<section class="hero">
+    <h1>Bienvenido a OlympusMC™</h1>
+    <p>Survival Custom, Survival OP y mas.</p>
+    <a class="boton" href="{{ url_for('ip') }}">Cómo conectarse</a>
+</section>
+
+<section class="tarjetas">
+    <article class="tarjeta">
+        <h2>🌍 Survival OP</h2>
+        <p>Construye, explora y sobrevive junto a otros jugadores.</p>
+    </article>
+    <article class="tarjeta">
+        <h2>🌍 Survival Custom</h2>
+        <p>Juega en un modo mas customizado y mas divertido.</p>
+    </article>
+    <article class="tarjeta">
+        <h2>🎉 Eventos</h2>
+        <p>Eventos y premios.</p>
+    </article>
+</section>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block titulo %}Anuncios{% endblock %}
+
+{% block contenido %}
+<h1>📢 Anuncios</h1>
+<div class="markdown">
+    {{ contenido | safe }}
+</div>
+{% endblock %}

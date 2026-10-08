@@ -1,0 +1,77 @@
+:root {
+    --fondo: #1a1a1f;
+    --panel: #26262e;
+    --texto: #e8e8ee;
+    --verde: #55c957;
+    --verde-oscuro: #3a9a3c;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background: var(--fondo);
+    color: var(--texto);
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecera {
+    background: var(--panel);
+    border-bottom: 3px solid var(--verde);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo { color: var(--verde); font-size: 1.4rem; font-weight: bold; text-decoration: none; }
+
+nav a {
+    color: var(--texto);
+    text-decoration: none;
+    margin-left: 1.2rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+}
+nav a:hover, nav a.activo { background: var(--verde); color: #000; }
+
+.contenedor { flex: 1; max-width: 900px; width: 100%; margin: 2rem auto; padding: 0 1rem; }
+
+h1 { margin-bottom: 1rem; color: var(--verde); }
+
+.hero { text-align: center; padding: 3rem 1rem; }
+.hero p { margin: 1rem 0 1.5rem; font-size: 1.2rem; }
+
+.boton {
+    display: inline-block;
+    background: var(--verde);
+    color: #000;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.boton:hover { background: var(--verde-oscuro); }
+
+.tarjetas { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+.tarjeta { background: var(--panel); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--verde); }
+.tarjeta h2 { margin-bottom: 0.5rem; }
+
+.markdown { background: var(--panel); padding: 1.5rem; border-radius: 8px; }
+.markdown h2, .markdown h3 { margin: 1rem 0 0.5rem; color: var(--verde); }
+.markdown ul, .markdown ol { margin-left: 1.5rem; }
+.markdown pre {
+    background: #111;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 0.5rem 0;
+}
+.markdown code { color: var(--verde); font-family: monospace; }
+
+.pie { text-align: center; padding: 1.5rem; background: var(--panel); font-size: 0.85rem; opacity: 0.8; }

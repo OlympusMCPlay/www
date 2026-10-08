@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block titulo %}OlympusMC™{% endblock %} | Minecraft</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="cabecera">
+        <a class="logo" href="{{ url_for('inicio') }}">OlympusMC™</a>
+        <nav>
+            <a href="{{ url_for('inicio') }}" class="{{ 'activo' if pagina == 'inicio' }}">Inicio</a>
+            <a href="{{ url_for('anuncios') }}" class="{{ 'activo' if pagina == 'anuncios' }}">Anuncios</a>
+            <a href="{{ url_for('ip') }}" class="{{ 'activo' if pagina == 'ip' }}">IP</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        {% block contenido %}{% endblock %}
+    </main>
+
+    <footer class="pie">
+        <p>OympsMC™ 2026 · No afiliado con Mojang ni Microsoft</p>
+    </footer>
+</body>
+</html>
