@@ -1,5 +1,5 @@
-## IP del server
-
+## IP del server:
+- **IP:** <code onclick="navigator.clipboard.writeText(&quot;mc.olympusmc.abrdns.com&quot;); alert(&quot;Copiado al portapapeles.&quot;);" style="cursor: pointer;">mc.olympusmc.abrdns.com</code>
 - **Versión:** 26.x,1.21.x, 1.20.x, 1.19.x, 1.18.x, 1.17.x
 
 ### Pasos
