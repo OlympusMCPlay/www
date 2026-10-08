@@ -1,0 +1,2 @@
+- Pronto server abierto, Dia 20/10/2026 a las 8:00 PM si todo sale bien.
+- Evento inicio de server.

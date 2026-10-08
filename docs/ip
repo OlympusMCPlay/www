@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IP | Minecraft</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <a class="logo" href="index.html">OlympusMC™</a>
+        <nav>
+            <a href="index.html" class="">Inicio</a>
+            <a href="anuncios" class="">Anuncios</a>
+            <a href="ip" class="activo">IP</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        
+<h1>🔌 Cómo conectarse</h1>
+<div class="markdown">
+    <h2>IP del server</h2>
+<ul>
+<li><strong>Versión:</strong> 26.x,1.21.x, 1.20.x, 1.19.x, 1.18.x, 1.17.x</li>
+</ul>
+<h3>Pasos</h3>
+<ol>
+<li>Abre Minecraft Java</li>
+<li>Ve a <strong>Multijugador → Añadir servidor</strong></li>
+<li>Pega la IP y listo.</li>
+</ol>
+</div>
+
+    </main>
+
+    <footer class="pie">
+        <p>OympsMC™ 2026 · No afiliado con Mojang ni Microsoft</p>
+    </footer>
+</body>
+</html>
