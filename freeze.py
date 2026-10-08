@@ -8,3 +8,4 @@ freezer = Freezer(app)
 
 if __name__ == "__main__":
     freezer.freeze()
+    open("docs/.nojekyll", "w").close()

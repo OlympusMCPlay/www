@@ -21,12 +21,12 @@ def inicio():
     return render_template("inicio.html", pagina="inicio")
 
 
-@app.route("/anuncios")
+@app.route("/anuncios/")
 def anuncios():
     return render_template("anuncios.html", pagina="anuncios", contenido=leer_md("anuncios.md"))
 
 
-@app.route("/ip")
+@app.route("/ip/")
 def ip():
     return render_template("ip.html", pagina="ip", contenido=leer_md("ip.md"))
 
